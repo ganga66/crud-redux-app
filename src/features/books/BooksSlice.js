@@ -5,18 +5,18 @@ const initialBooks = {
   books: [
     {
       id: uuidv4(),
-      title: "The India Story",
-      author: "Bimal Jalal",
+      title: "Geetanjali",
+      author: "Ravindra nath tagore",
     },
     {
       id: uuidv4(),
-      title: "A Place Called Home",
-      author: "Preeti Shenoy",
+      title: "Alice in wonderland",
+      author: "lewis caroll",
     },
     {
       id: uuidv4(),
-      title: "Lal Salam",
-      author: "Smriti Irani",
+      title: "Wings of fire",
+      author: "A P J Abdul kalam",
     },
   ],
 };

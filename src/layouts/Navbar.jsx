@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container">
         <Link className="navbar-brand text-light fs-3 fs-bold" to="/">
           <img className="me-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Closed_Book_Icon.svg/1024px-Closed_Book_Icon.svg.png" width={'50px'} alt="" />
-          BookList
+          ​🇧​​🇴​​🇴​​🇰​ ​🇱​​🇮​​🇸​​🇹​
         </Link>
         <button
           className="navbar-toggler"
@@ -28,13 +28,13 @@ const Navbar = () => {
               </Link> */}
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light fs-4" to="/">
-                Show Books
+              <Link className="nav-link text-light fs-3" to="/">
+              ​🇸​​🇭​​🇴​​🇼​ ​🇧​​🇴​​🇴​​🇰​
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light fs-4" to="/add-book">
-                Add Book
+              <Link className="nav-link text-light fs-3" to="/add-book">
+              ᴀᴅᴅ ʙᴏᴏᴋ
               </Link>
             </li>
           </ul>

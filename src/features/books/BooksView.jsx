@@ -44,14 +44,30 @@ const BooksView = () => {
                   <td className="p-3">{author}</td>
                   <td className="d-flex gap-2 p-3">
                     <Link to="/edit-book" state={{ id, title, author }}>
-                      <button className="bg-danger">
-                        <FaEdit />
+                    <button
+                        type="submit"
+                        className="btn fs-5 bg-danger"
+                        style={{ background: "#006877", color: "white" }}
+                      >
+                         <FaEdit />
                       </button>
+                      {/* <button className="bg-danger">
+                        <FaEdit />
+                      </button> */}
                     </Link>
 
-                    <button className="bg-danger" onClick={() => handleDelete(id)}>
+                    <button
+                        onClick={() => handleDelete(id)}
+                        type="submit"
+                        className="btn bg-danger"
+                        style={{ background: "#006877", color: "white" }}
+                      >
+                           <FaTrashAlt />
+                      </button>
+
+                    {/* <button className="bg-danger" onClick={() => handleDelete(id)}>
                       <FaTrashAlt />
-                    </button>
+                    </button> */}
                   </td>
                 </tr>
               );
